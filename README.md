@@ -4,11 +4,13 @@
 git init
 git status
 
+
 git add -A
 git add .
 git add *.js
 git add **/*.js
 git rm --cached <filename>
+
 
 git diff
 git restore <filename>
@@ -29,10 +31,17 @@ git reset --soft HEAD~2
 git reset HEAD^
 git reset --hard HEAD^
 
+
 git checkout 7e5bbac29158598e17dee1a30d07cc62fce66a1b
 git checkout master
 
 
 git remote add origin https://github.com/bhyeanhasan/GitHubPractice.git
 git clone https://github.com/bhyeanhasan/GitHubPractice.git
+
+
+git branch dev
+git checkout dev
+git checkout main
+git merge dev
 ```
